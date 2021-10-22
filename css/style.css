@@ -1,0 +1,44 @@
+/* RESET */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 70px;
+
+    /* test */
+    background-color: brown;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+main{
+    width: 100%;
+    height: calc(100vh - 140px);
+
+    /* test */
+    background-color:coral;
+}
+/* END MAIN */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 70px;
+
+    /* test */
+    background-color:burlywood
+}
+/* END FOOTER */
