@@ -9,6 +9,7 @@
 body{
     font-family: 'Lato', sans-serif;
     color: white;
+    background-color: black;
 
 }
 
@@ -59,10 +60,6 @@ header .fa-th{
 main{
     width: 100%;
     height: calc(100vh - 140px);
-    
-
-    /* test */
-    background-color:coral;
 }
 
 .container-items{
@@ -72,8 +69,6 @@ main{
     background-size: cover;
     position: relative;
     margin: 7px 5px;
-    /* test */
-    background-color: cornsilk;
 }
 
 .name{
@@ -91,8 +86,25 @@ main{
 footer{
     width: 100%;
     height: 70px;
-
-    /* test */
-    background-color:burlywood
+   justify-content: space-between;
+    background-color:#222222
+}
+footer > .container-flex{
+    align-items: center;
+}
+.footer-middle  .container-flex{
+    align-items: center;
+    flex-direction: column;
+    margin: 0 7px;
+}
+.footer-left  .container-flex{
+    align-items: center;
+    flex-direction: column;
+    margin: 0 7px;
+}
+.footer-right{ 
+    color:red;
+    background-color: rgba(107, 118, 131, 0.5);
+    padding:0 10px;
 }
 /* END FOOTER */
